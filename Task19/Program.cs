@@ -17,7 +17,7 @@ for (int i = 4; i >=0; i=i-1)
 }
     int l = 0;
     if (array[l]==array[4-l] && array [l+1] == array [4-1-l])
-    Console.WriteLine("Profit!!! This number is palшndrome!!!");
+    Console.WriteLine("Profit!!! This number is palindrome!!!");
     else 
     Console.WriteLine("Unfortunattly...");
 
