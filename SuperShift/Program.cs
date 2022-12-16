@@ -35,7 +35,7 @@ else {
     }
     else 
     {newarray[i] = array[array.Length+i+s];}
-    Console.WriteLine($"Элемент {i+1} - {newarray[i]}");
+   // Console.WriteLine($"Элемент {i+1} - {newarray[i]}");
 }
 }
 Console.WriteLine($"[{string.Join(", ", newarray)}]");
